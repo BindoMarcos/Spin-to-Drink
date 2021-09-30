@@ -3,12 +3,11 @@
     android:opacity="opaque">
 
     <item android:drawable="@color/black" />
-
-    <item
-        android:bottom="150dp"
-        android:left="10dp"
-        android:right="10dp"
-        android:top="150dp">
-        <bitmap android:src="@drawable/logo" />
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/cups_alas_torcido" />
     </item>
+
+
 </layer-list>

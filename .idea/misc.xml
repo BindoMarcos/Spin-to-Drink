@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bindo/.gradle/caches/transforms-3/9156ad703298e2b4d9351eec1745f3a3/transformed/jetified-LuckyWheel_Android-0.3.0/res/layout/lucky_wheel_layout.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_glass_shot_solid.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_hand_yo_nunca.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_host.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_plastic_cups.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_question_solid.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_reload.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/logo.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/splashscreen.xml" value="0.22552083333333334" />
-        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/layout/activity_main.xml" value="0.18" />
       </map>
     </option>
   </component>
