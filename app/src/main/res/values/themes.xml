@@ -5,10 +5,9 @@
         <item name="colorPrimary">@color/Primary</item>
         <item name="colorPrimaryVariant">@color/PDark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorAccent">#9c4dcc</item>
+        <item name="colorAccent">@color/PAccent</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/Secondary</item>
-        <item name="colorSecondaryVariant">@color/SDark</item>
+
         <item name="colorOnSecondary">@color/black</item>
 
         <!-- Status bar color. -->
