@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yoNuncaJuegos">
+        <item>juego-1</item>
+        <item>juego-2</item>
+        <item>juego-3</item>
+        <item>juego-4</item>
+        <item>juego-5</item>
+        <item>juego-6</item>
+        <item>juego-7</item>
+        <item>juego-8</item>
+    </string-array>
+</resources>

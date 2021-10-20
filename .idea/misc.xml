@@ -4,9 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/bindo/.gradle/caches/transforms-3/9156ad703298e2b4d9351eec1745f3a3/transformed/jetified-LuckyWheel_Android-0.3.0/res/layout/lucky_wheel_layout.xml" value="0.22" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/frame.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/ic_reload.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/drawable/splashscreen.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/layout/activity_pop_up.xml" value="0.25" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/layout/activity_pop_up_yo_nunca.xml" value="0.25" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/layout/activity_reglas_yo_nunca.xml" value="0.209375" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/layout/yo_nunca.xml" value="0.25" />
+        <entry key="..\:/Users/bindo/AndroidStudioProjects/DrinkGame/app/src/main/res/menu/menu_juegos.xml" value="0.209375" />
       </map>
     </option>
   </component>

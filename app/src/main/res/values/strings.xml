@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Drink Game</string>
+    <string name="titulo_yo_nunca">Yo Nunca</string>
+    <string name="titulo_Quien_es_mas">Quien es mas?</string>
+    <string name="titulo_10_seg">10 Segundos</string>
+
 </resources>
