@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.trustlyapps.drinkgame" >
+    package="com.trustlyapps.drinkgame">
 
     <application
         android:allowBackup="true"
@@ -8,18 +8,30 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DrinkGame" >
+        android:theme="@style/Theme.DrinkGame">
         <activity
-            android:name=".ReglasYoNunca"
+            android:name=".diezSeg.ReglasDiezSegs"
+            android:exported="false" />
+        <activity
+            android:name=".diezSeg.diezSeg"
+            android:exported="false" />
+        <activity
+            android:name=".quienEsMas.ReglasQuienEsMas"
+            android:exported="false" />
+        <activity
+            android:name=".quienEsMas.QuienEsMas"
+            android:exported="false" />
+        <activity
+            android:name=".yoNunca.ReglasYoNunca"
             android:exported="true" />
         <activity
-            android:name=".YoNunca"
+            android:name=".yoNunca.YoNunca"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:theme="@style/SplashTheme" >
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".yoNunca.YoNunca">
+    tools:context=".diezSeg.diezSeg">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tlyoNunca"
+        android:id="@+id/tlDiezSegs"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/Primary"
@@ -18,19 +18,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
+        app:layout_constraintTop_toTopOf="parent"
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/bungee"
-            android:text="Yo Nunca nunca..."
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="10 segundos"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/toolbar"
             app:layout_constraintStart_toStartOf="@+id/toolbar"
-            tools:layout_editor_absoluteY="18dp" />
+            tools:layout_editor_absoluteY="18dp"/>
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.cardview.widget.CardView
@@ -44,7 +46,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tlyoNunca">
+        app:layout_constraintTop_toBottomOf="@+id/tlDiezSegs">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -72,7 +74,7 @@
                 android:id="@+id/bReglas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="16dp"
                 android:fontFamily="@font/bungee"
                 android:text="Reglas"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -105,6 +107,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <com.androchef.happytimer.countdowntimer.CircularCountDownView
+                android:id="@+id/circularCountDownView"
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/bReglas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvContenido"
+                app:layout_constraintVertical_bias="1.0"
+                app:stroke_background_color="@color/black"
+                app:stroke_background_thickness="31dp"
+                app:stroke_foreground_color="@color/colorLightBlue"
+                app:stroke_foreground_thickness="40dp"
+                app:timer_text_color="@color/colorLightBlue"
+                app:timer_text_format="HOUR_MINUTE_SECOND"
+                app:timer_text_isBold="true"
+                app:timer_text_shown="true"
+                app:timer_text_size="20sp"
+                app:timer_type="COUNT_UP" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

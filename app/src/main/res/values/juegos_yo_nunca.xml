@@ -1,13 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="yoNuncaJuegos">
-        <item>juego-1</item>
-        <item>juego-2</item>
-        <item>juego-3</item>
-        <item>juego-4</item>
-        <item>juego-5</item>
-        <item>juego-6</item>
-        <item>juego-7</item>
-        <item>juego-8</item>
+    <string-array name="yoNuncaEasy">
+        <item>cacele una salida porque me dio vagancia</item>
+        <item>bese a alguien y luego me he arrepentido</item>
+        <item>fui arrestado</item>
+        <item>tuve problemas con la policia</item>
+        <item>bese al novio de mi mejor amiga/o</item>
+        <item>presumi algo que no hize</item>
+        <item>llore en la escuela</item>
+        <item>me cai de una bicicleta</item>
+        <item>confundi a un hombre con una mujer o viceversa</item>
+        <item>tuve diarrea en lo de un amigo</item>
+        <item>me desmaye o perdi conocimiento</item>
+        <item>tuve experiencias paranormales</item>
+        <item>robe algo de un local</item>
+        <item>le menti a un amigo</item>
+        <item>me enfrente a golpes con alguien</item>
+        <item>me teñi el pelo</item>
+        <item>le tire una bebida a alguien</item>
+        <item>estuve esposado</item>
+        <item>tuve una realacion abierta</item>
+        <item>estuve con alguien mucho mas mayor</item>
+        <item>estuve con alguien mucho mas chico</item>
+        <item>hui de la policia</item>
+        <item>tuve una relacion que duro menos de una semana</item>
+        <item>compre algo en un sex-shop</item>
+        <item>comi insectos</item>
+        <item>busque en google mi propio nombre</item>
+        <item>vi a mis padres tener sexo</item>
+        <item>puse a alguien en la friendzone</item>
+        <item>dije "no tomo mas" despues de una borrachera</item>
+        <item>me emborrache solo</item>
+        <item>me gusto un profesor/a</item>
+        <item>me cai en publico</item>
+        <item>le dije "te amo" a alguien por accidente</item>
+        <item>me vesti del sexo opuesto</item>
+    </string-array>
+
+    <string-array name="yoNuncaMedium">
+        <item>vomite a alguien estando borracho</item>
+        <item>maneje borracho</item>
+        <item>consumi una sustancia indebida</item>
+        <item>robe algo</item>
+        <item>llore por un/a ex</item>
+        <item>fui infiel</item>
+        <item>mande un audio o video subido de tono a alguien que no debia</item>
+        <item>he besado a alguien de este grupo</item>
+        <item>recibi azotes</item>
+        <item>disfrute que me azoten</item>
+        <item>hecho fotos practicando sexo</item>
+        <item>le escribi/llame a mi ex estando borracho</item>
+        <item>realize cybersexo</item>
+        <item>hice un striptease</item>
+        <item>le robe a mi padre o madre</item>
+        <item>dude de mi sexualidad</item>
+        <item>le menti a mi pareja</item>
+        <item>conte un secreto tenia que guardar</item>
+        <item>me emborrache en el colegio/universidad</item>
+        <item>jugue beer-pong</item>
+        <item>practique sadomasoquismo</item>
+        <item>le rompi el corazon a alguien</item>
+        <item>pense en otra persona durante el sexo</item>
+        <item>tuve una fantasia sexual con uno de los presentes</item>
+        <item>fingi un orgasmo</item>
+        <item>me desperte desnudo en una casa ajena</item>
+        <item>agarre un alimento de la basura y lo consumi</item>
+        <item>falsifique una firma</item>
+        <item>fui la persona mas borracha de la fiesta</item>
+        <item>me fui de un lugar sin pagar</item>
+        <item>jugue al juego de la botella</item>
+        <item>use la ropa interior de alguien mas</item>
+        <item>comi cera de oido</item>
+        <item>use preservativos de sabores</item>
+    </string-array>
+
+    <string-array name="yoNuncaHard">
+        <item>use un juguete sexual</item>
+        <item>use juguetes sexuales con mi pareja</item>
+        <item>tuve relaciones sexuales pensando en otra persona</item>
+        <item>tuve relaciones sexuales en público</item>
+        <item>tuve relaciones sexuales en un auto</item>
+        <item>bese a alguien de mi mismo sexo</item>
+        <item>he visto pornografía</item>
+        <item>me acoste con más de 10 personas en mi vida</item>
+        <item>me masturbe más de 5 veces en un día</item>
+        <item>bese a nadie con mal olor de boca</item>
+        <item>vomite a alguien estando borracho</item>
+        <item>tuve sexo con el/la novio/a de mi amigo/a</item>
+        <item>enve fotos desnudo/a a un amigo/a</item>
+        <item>le hice un oral a alguien de mi mismo sexo</item>
+        <item>me esposaron a la cama</item>
+        <item>juge al strip poker</item>
+        <item>use una fruta o una verdura para darme placer</item>
+        <item>guarde fotos de un ex desnudos en secreto</item>
+        <item>tuve sexo con alguien de este grupo</item>
+        <item>sexo en la cama de mis padres</item>
+        <item>participado en una orgía</item>
+        <item>menti jugando, Yo nunca nunca</item>
+        <item>realize sexo oral conduciendo</item>
+        <item>tuve sexo en la cocina</item>
+        <item>rompi un mueble durante el sexo</item>
+        <item>participe en un trio</item>
+        <item>nade desnudo</item>
+        <item>me masturbe al aire libre</item>
+        <item>me equivoque de nombre durante el sexo</item>
+        <item>tuve sexo con alguien de mi familia</item>
+        <item>tuve sexo mas de 5 veces en una noche</item>
+        <item>cree una cuenta falsa en redes para stalkear a alguien</item>
+        <item>me desperte en un lugar que no conocia</item>
+        <item>tuve sexo en la playa</item>
     </string-array>
 </resources>

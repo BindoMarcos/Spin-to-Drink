@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".yoNunca.YoNunca">
+    tools:context=".quienEsMas.QuienEsMas">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tlyoNunca"
+        android:id="@+id/tlquienEs"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/Primary"
@@ -25,7 +25,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/bungee"
-            android:text="Yo Nunca nunca..."
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="¿Quien es mas \n probable?"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/toolbar"
@@ -44,7 +46,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tlyoNunca">
+        app:layout_constraintTop_toBottomOf="@+id/tlquienEs">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -108,5 +110,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

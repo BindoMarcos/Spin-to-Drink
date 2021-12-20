@@ -11,6 +11,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bluehomestudio.luckywheel.LuckyWheel
 import com.bluehomestudio.luckywheel.WheelItem
+import com.trustlyapps.drinkgame.diezSeg.diezSeg
+import com.trustlyapps.drinkgame.quienEsMas.QuienEsMas
+import com.trustlyapps.drinkgame.yoNunca.YoNunca
 
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     private var point: String? = null
 
     private var luckywheel : LuckyWheel? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,10 +51,12 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
             if (point == "3" || point == "7" || point == "11") {
-                Toast.makeText(this, "Quien es mas", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, QuienEsMas::class.java)
+                startActivity(intent)
             }
             if(point == "4" || point == "8" || point == "12" ){
-                Toast.makeText(this, "10 Seg", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, diezSeg::class.java)
+                startActivity(intent)
             }
             if(point == "1"){
                 Toast.makeText(this, "shot", Toast.LENGTH_SHORT).show()

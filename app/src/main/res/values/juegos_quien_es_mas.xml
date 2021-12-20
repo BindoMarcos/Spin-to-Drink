@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quienEsMasProbableEasy">
+        <item>... que se case antes?</item>
+        <item>... que se divorcie antes?</item>
+        <item>... que deje el trabajo antes?</item>
+        <item>... que se haga rico?</item>
+        <item>... que se haga famoso/a?</item>
+        <item>... que le salve la vida a alguien?</item>
+        <item>... que atropelle a alguien?</item>
+        <item>... que se emborrache y caiga en público?</item>
+        <item>... que se duerma en una clase o en el trabajo?</item>
+        <item>... que le sean infiel?</item>
+        <item>... que tenga problemas legales?</item>
+        <item>... que establezca un récord mundial de beber cerveza?</item>
+        <item>... que se vaya a vivir al extranjero?</item>
+        <item>... que se someta a una cirugía plástica en el futuro?</item>
+        <item>... que muera por algo estúpido?</item>
+        <item>... que avergüence a un amigo en público?</item>
+        <item>... que se ría en el momento equivocado?</item>
+        <item>... que vaya a un club gay?</item>
+        <item>... que sea arrestado por caminar desnudo?</item>
+        <item>... que sea el mejor mentiroso?</item>
+        <item>... que termine solo?</item>
+        <item>... que pase una semana sin ducharse?</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="quienEsMasProbableMedium">
+        <item>... que tenga hijos antes?</item>
+        <item>... que abandone el grupo de amigxs?</item>
+        <item>... que tenga una aventura con alguien mayor?</item>
+        <item>... que sufra adicción a las drogas?</item>
+        <item>... que sea infiel?</item>
+        <item>... que se acueste con alguien de su mismo sexo?</item>
+        <item>... que vuelva con su ex?</item>
+        <item>... que tenga un hijo primero?</item>
+        <item>... que gaste todo su dinero en algo estúpido?</item>
+        <item>... que llore en un lugar público?</item>
+        <item>... que se pelee con un amigo por algo estúpido?</item>
+        <item>... que coma algo asqueroso en un desafío?</item>
+        <item>... que mate a una pareja infiel?</item>
+        <item>... que se convierta en stripper?</item>
+        <item>... que se enamore de su mejor amigo?</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="quienEsMasProbableHard">
+        <item>... que haga un trío primero?</item>
+        <item>... que se tire desnudx en una piscina?</item>
+        <item>... que se pelee con alguien hasta llegar a las manos?</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>
