@@ -11,8 +11,8 @@ import kotlin.random.Random
 
 class YoNunca : AppCompatActivity() {
 
-    var contenido: TextView? = null
-    var shots: TextView? = null
+    private var contenido: TextView? = null
+    private var shots: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,7 +26,7 @@ class YoNunca : AppCompatActivity() {
 
         val boton = findViewById<Button>(R.id.bReglas)
         boton.setOnClickListener {
-            val intent= Intent(this, ReglasYoNunca::class.java)
+            val intent = Intent(this, ReglasYoNunca::class.java)
             startActivity(intent)
         }
 
@@ -42,18 +42,22 @@ class YoNunca : AppCompatActivity() {
         val difRandom = dificultad[randomIndex].toString()
         shots?.text = difRandom
 
-        if (difRandom == "1"){
-            val yoNuncaJuegosBasic = resources.getStringArray(R.array.yoNuncaEasy)
-            val juegoRandom = yoNuncaJuegosBasic.random()
-            contenido?.text = juegoRandom
-        }else if(difRandom == "2"){
-            val yoNuncaJuegosMedium = resources.getStringArray(R.array.yoNuncaMedium)
-            val juegoRandom = yoNuncaJuegosMedium.random()
-            contenido?.text = juegoRandom
-        }else{
-            val yoNuncaJuegosHard= resources.getStringArray(R.array.yoNuncaHard)
-            val juegoRandom = yoNuncaJuegosHard.random()
-            contenido?.text = juegoRandom
+        when (difRandom) {
+            "1" -> {
+                val yoNuncaJuegosBasic = resources.getStringArray(R.array.yoNuncaEasy)
+                val juegoRandom = yoNuncaJuegosBasic.random()
+                contenido?.text = juegoRandom
+            }
+            "2" -> {
+                val yoNuncaJuegosMedium = resources.getStringArray(R.array.yoNuncaMedium)
+                val juegoRandom = yoNuncaJuegosMedium.random()
+                contenido?.text = juegoRandom
+            }
+            else -> {
+                val yoNuncaJuegosHard = resources.getStringArray(R.array.yoNuncaHard)
+                val juegoRandom = yoNuncaJuegosHard.random()
+                contenido?.text = juegoRandom
+            }
         }
     }
 }

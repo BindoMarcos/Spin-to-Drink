@@ -16,4 +16,5 @@ class ReglasYoNunca : AppCompatActivity() {
         actionBar?.setDisplayHomeAsUpEnabled(true)
         actionBar?.setDisplayShowTitleEnabled(false)
     }
+
 }

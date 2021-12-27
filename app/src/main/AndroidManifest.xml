@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DrinkGame">
         <activity
+            android:name=".PopUpWindow"
+            android:exported="false"
+            android:theme="@style/Theme.Transparent"
+            />
+        <activity
             android:name=".diezSeg.ReglasDiezSegs"
             android:exported="false" />
         <activity
-            android:name=".diezSeg.diezSeg"
+            android:name=".diezSeg.DiezSeg"
             android:exported="false" />
         <activity
             android:name=".quienEsMas.ReglasQuienEsMas"

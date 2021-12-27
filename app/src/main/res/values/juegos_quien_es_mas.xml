@@ -1,114 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="quienEsMasProbableEasy">
-        <item>... que se case antes?</item>
-        <item>... que se divorcie antes?</item>
-        <item>... que deje el trabajo antes?</item>
-        <item>... que se haga rico?</item>
-        <item>... que se haga famoso/a?</item>
-        <item>... que le salve la vida a alguien?</item>
-        <item>... que atropelle a alguien?</item>
-        <item>... que se emborrache y caiga en público?</item>
-        <item>... que se duerma en una clase o en el trabajo?</item>
-        <item>... que le sean infiel?</item>
-        <item>... que tenga problemas legales?</item>
-        <item>... que establezca un récord mundial de beber cerveza?</item>
-        <item>... que se vaya a vivir al extranjero?</item>
-        <item>... que se someta a una cirugía plástica en el futuro?</item>
-        <item>... que muera por algo estúpido?</item>
-        <item>... que avergüence a un amigo en público?</item>
-        <item>... que se ría en el momento equivocado?</item>
-        <item>... que vaya a un club gay?</item>
-        <item>... que sea arrestado por caminar desnudo?</item>
-        <item>... que sea el mejor mentiroso?</item>
-        <item>... que termine solo?</item>
-        <item>... que pase una semana sin ducharse?</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>… que se case antes?</item>
+        <item>… que se divorcie antes?</item>
+        <item>… que deje el trabajo antes?</item>
+        <item>… que se haga rico?</item>
+        <item>… que se haga famoso/a?</item>
+        <item>… que le salve la vida a alguien?</item>
+        <item>… que atropelle a alguien?</item>
+        <item>… que se emborrache y caiga en público?</item>
+        <item>… que se duerma en una clase o en el trabajo?</item>
+        <item>… que le sean infiel?</item>
+        <item>… que tenga problemas legales?</item>
+        <item>… que establezca un récord mundial de beber cerveza?</item>
+        <item>… que se vaya a vivir al extranjero?</item>
+        <item>… que se someta a una cirugía plástica en el futuro?</item>
+        <item>… que muera por algo estúpido?</item>
+        <item>… que avergüence a un amigo en público?</item>
+        <item>… que se ría en el momento equivocado?</item>
+        <item>… que vaya a un club gay?</item>
+        <item>… que sea arrestado por caminar desnudo?</item>
+        <item>… que sea el mejor mentiroso?</item>
+        <item>… que termine solo?</item>
+        <item>… que pase una semana sin ducharse?</item>
+        <item>… que sea soltero para siempre?</item>
+        <item>… que se convierta en sacerdote?</item>
+        <item>… que gane mucho dinero con una idea revolucionaria?</item>
+        <item>… que viva solo y tenga muchos gatos?</item>
+        <item>… que muera por algo estúpido?</item>
+        <item>… que tenga hijos en los próximos cinco años?</item>
+        <item>… que sea el mejor mentiroso?</item>
+        <item>… que no se case nunca?</item>
+        <item>… que coma cuando está aburrido?</item>
+        <item>… que se mude a otro país?</item>
+        <item>… que haga algo vergonzoso cuando este borracho?</item>
+        <item>… que se duerma en público?</item>
     </string-array>
 
     <string-array name="quienEsMasProbableMedium">
-        <item>... que tenga hijos antes?</item>
-        <item>... que abandone el grupo de amigxs?</item>
-        <item>... que tenga una aventura con alguien mayor?</item>
-        <item>... que sufra adicción a las drogas?</item>
-        <item>... que sea infiel?</item>
-        <item>... que se acueste con alguien de su mismo sexo?</item>
-        <item>... que vuelva con su ex?</item>
-        <item>... que tenga un hijo primero?</item>
-        <item>... que gaste todo su dinero en algo estúpido?</item>
-        <item>... que llore en un lugar público?</item>
-        <item>... que se pelee con un amigo por algo estúpido?</item>
-        <item>... que coma algo asqueroso en un desafío?</item>
-        <item>... que mate a una pareja infiel?</item>
-        <item>... que se convierta en stripper?</item>
-        <item>... que se enamore de su mejor amigo?</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>… que tenga hijos antes?</item>
+        <item>… que abandone el grupo de amigxs?</item>
+        <item>… que tenga una aventura con alguien mayor?</item>
+        <item>… que sufra adicción a las drogas?</item>
+        <item>… que sea infiel?</item>
+        <item>… que se acueste con alguien de su mismo sexo?</item>
+        <item>… que vuelva con su ex?</item>
+        <item>… que tenga un hijo primero?</item>
+        <item>… que gaste todo su dinero en algo estúpido?</item>
+        <item>… que llore en un lugar público?</item>
+        <item>… que se pelee con un amigo por algo estúpido?</item>
+        <item>… que coma algo asqueroso en un desafío?</item>
+        <item>… que mate a una pareja infiel?</item>
+        <item>… que se convierta en stripper?</item>
+        <item>… que se enamore de su mejor amigo?</item>
+        <item>… que conozca los nombres de todas las estrellas porno famosas?</item>
+        <item>… que sea el mejor jugador de apuestas?</item>
+        <item>… que le quite la pareja a alguien?</item>
+        <item>… que termine solo?</item>
+        <item>… que se convierta en policía?</item>
+        <item>… que finja su muerte?</item>
+        <item>… que robe un banco?</item>
+        <item>… que sea un fetichista de los pies?</item>
+        <item>… que hable por teléfono mientras tiene sexo?</item>
+        <item>… que cambie su orientación sexual?</item>
+        <item>… que haya fingido un orgasmo?</item>
+        <item>… que acabe en un psiquiátrico?</item>
+        <item>… que se ría en un funeral?</item>
+        <item>… que se convierta en un alcohólico?</item>
+        <item>… que cometa incesto?</item>
+        <item>… que quiera tener sexo en la ducha?</item>
+        <item>… que tenga sexo en la primera cita?</item>
+        <item>… que tenga un juguete sexual?</item>
+        <item>… que haya tenido sexo aburrido?</item>
     </string-array>
 
     <string-array name="quienEsMasProbableHard">
-        <item>... que haga un trío primero?</item>
-        <item>... que se tire desnudx en una piscina?</item>
-        <item>... que se pelee con alguien hasta llegar a las manos?</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>… que haga un trío primero?</item>
+        <item>… que se tire desnudx en una piscina?</item>
+        <item>… que se pelee con alguien hasta llegar a las manos?</item>
+        <item>… que tenga deseos sexuales ocultos y pervertidos?</item>
+        <item>… que mate a una pareja infiel?</item>
+        <item>… que haga una película porno?</item>
+        <item>… que se masturbe en público?</item>
+        <item>… que este cachondo todo el tiempo?</item>
+        <item>… que le guste el BDSM?</item>
+        <item>… que que se case con un stripper?</item>
+        <item>… que este caliente todo el tiempo?</item>
+        <item>… que le haya hecho un striptease a su pareja?</item>
+        <item>… que diga que el 69 es su postura favorita?</item>
+        <item>… que quiera utilizar mucho lubricante?</item>
+        <item>… que mate por dinero?</item>
+        <item>… que coma carne humana?</item>
+        <item>… que se haga adicto a los juegos de apuestas?</item>
+        <item>… que mate animales por diversión?</item>
+        <item>… que venda drogas a niños?</item>
+        <item>… que se convierta en un terrorista?</item>
+        <item>… que se convierta en un asesino en serie?</item>
+        <item>… que sea diagnosticado con VIH?</item>
+        <item>… que mate a su jefe?</item>
+        <item>… que entre en coma debido al alcohol?</item>
+        <item>… que tenga una enfermedad mental no diagnosticada?</item>
+        <item>… que espíe a su pareja en la ducha?</item>
+        <item>… que le guste el sexo anal?</item>
+        <item>… que lo encuentren viendo porno?</item>
     </string-array>
 
 </resources>

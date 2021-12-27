@@ -10,9 +10,9 @@ class ReglasDiezSegs : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reglas_diez_segs)
 
-        val toolbar = findViewById<Toolbar>(R.id.tlquienEs)
-        setSupportActionBar(toolbar)
+        val toolbar = findViewById<Toolbar>(R.id.tlRdiezSegs)
         val actionBar = supportActionBar
+        setSupportActionBar(toolbar)
         actionBar?.setDisplayHomeAsUpEnabled(true)
         actionBar?.setDisplayShowTitleEnabled(false)
     }
