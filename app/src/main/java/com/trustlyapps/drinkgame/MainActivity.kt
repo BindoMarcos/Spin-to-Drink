@@ -4,9 +4,9 @@ import android.content.Intent
 import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.os.Bundle
-import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -16,23 +16,21 @@ import com.trustlyapps.drinkgame.diezSeg.DiezSeg
 import com.trustlyapps.drinkgame.quienEsMas.QuienEsMas
 import com.trustlyapps.drinkgame.yoNunca.YoNunca
 
-
 class MainActivity : AppCompatActivity() {
 
     private var spin: ImageButton? = null
     private var wheelItemsArray: MutableList<WheelItem> = ArrayList()
-    private var count = 0
 
     private var point: String? = null
 
     private var luckywheel: LuckyWheel? = null
 
+    private var animacion: Animation? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val animacion: Animation = AnimationUtils.loadAnimation(this, R.anim.anim_boton)
 
         generarItems()
         luckywheel = findViewById(R.id.luckywheel)
@@ -42,8 +40,12 @@ class MainActivity : AppCompatActivity() {
 
         spin?.setOnClickListener {
             rotacion()
-            count += 1
-            spin?.startAnimation(animacion)
+        }
+
+        val bReglas: Button= findViewById(R.id.bReglasMain)
+        bReglas.setOnClickListener{
+            val intent = Intent(this, Reglas::class.java)
+            startActivity(intent)
         }
 
         luckywheel?.setLuckyWheelReachTheTarget {
@@ -62,7 +64,10 @@ class MainActivity : AppCompatActivity() {
             if (point == "1") {
                 val intent = Intent(this, PopUpWindow::class.java)
                 intent.putExtra("popuptitle", "SHOT")
-                intent.putExtra("popuptext" , "Todos los jugadores (incluyendo el host), beben un trago")
+                intent.putExtra(
+                    "popuptext",
+                    "Todos los jugadores (incluyendo el host), beben un trago"
+                )
                 intent.putExtra("popupbutton", "OK")
                 intent.putExtra("darkstatusbar", false)
                 startActivity(intent)
@@ -70,7 +75,10 @@ class MainActivity : AppCompatActivity() {
             if (point == "5") {
                 val intent = Intent(this, PopUpWindow::class.java)
                 intent.putExtra("popuptitle", "CAMBIO DE HOST")
-                intent.putExtra("popuptext" , "El Actual HOST tendra que heredar su puesto al jugador que desee")
+                intent.putExtra(
+                    "popuptext",
+                    "El Actual HOST tendra que heredar su puesto al jugador que desee"
+                )
                 intent.putExtra("popupbutton", "OK")
                 intent.putExtra("darkstatusbar", false)
                 startActivity(intent)
@@ -83,9 +91,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rotacion() {
+        animacion = AnimationUtils.loadAnimation(this, R.anim.anim_boton)
         val rnds = (1..12).random()
-        point =  rnds.toString()
         luckywheel?.rotateWheelTo(rnds)
+        point =  rnds.toString()
+        spin?.startAnimation(animacion)
     }
 
     private fun generarItems() {
@@ -137,5 +147,7 @@ class MainActivity : AppCompatActivity() {
         wheelItemsArray.add(diezSeg)
     }
 
-}
+
+    }
+
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".diezSeg.diezSeg">
+    tools:context=".diezSeg.DiezSeg">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tlDiezSegs"
@@ -27,7 +27,7 @@
             android:fontFamily="@font/bungee"
             android:gravity="center"
             android:textSize="18sp"
-            android:text="10 segundos"
+            android:text="@string/_10_segundos"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/toolbar"
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/bungee"
-                android:text="Reglas"
+                android:text="@string/reglas"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -88,7 +88,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/bungee"
-                android:text="TextView"
+                android:text="@string/textview"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -102,7 +102,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/bungee"
-                android:text="shots:"
+                android:text="@string/shots"
                 android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

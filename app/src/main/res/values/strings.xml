@@ -3,5 +3,25 @@
     <string name="titulo_yo_nunca">Yo Nunca</string>
     <string name="titulo_Quien_es_mas">Quien es mas?</string>
     <string name="titulo_10_seg">10 Segundos</string>
+    <string name="bienvenidos">Bienvenidos</string>
+    <string name="_10_segundos">10 segundos</string>
+    <string name="reglas">Reglas</string>
+    <string name="textview">TextView</string>
+    <string name="shots">shots:</string>
+    <string name="text">Text</string>
+    <string name="title">Title</string>
+    <string name="ok">OK</string>
+    <string name="reglas_diez_3">3- Si el jugador no logra completar la consigna a tiempo, bebera la cantidad de shot especificada arriba</string>
+    <string name="reglas_diez_2">2- Terminada de nombrar la consigna, el host debera apretar sobre el contador y el jugador tendra 10 segundos para completarla</string>
+    <string name="reglas_diez_1">1- El host selecciona a un jugador diciendo su nombre, seguido, nombrara la consgina que este tendra que completar</string>
+    <string name="reglas_quien_es_mas_3">3- El jugador con mas votos tendra que tomar la cantidad de shots mencionadas</string>
+    <string name="reglas_quien_es_mas_2">2- Los jugadores tendran que decidir quien de los presentes encaja mejor con la pregunta</string>
+    <string name="reglas_quien_es_mas_1">1- El host realiza la pregunta que aparece en pantalla</string>
+    <string name="reglas_yoNunca_2">2- Si alguno de los \n jugadores presentes \n hizo lo mencionado, tiene \n que tomar la cantidad de \n shot especificada arriba</string>
+    <string name="reglas_yoNunca_1">1- Las oraciones siempre \n arrancan con \n \'Yo nunca nunca\'</string>
+    <string name="quien_es_mas_n_probable">¿Quien es mas \n probable?</string>
+
+    <string name="yo_nunca_nunca">Yo Nunca nunca…</string>
+
 
 </resources>

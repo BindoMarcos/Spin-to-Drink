@@ -21,7 +21,7 @@ class DiezSeg : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_diez_seg)
 
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        val toolbar = findViewById<Toolbar>(R.id.tlDiezSegs)
         setSupportActionBar(toolbar)
         val actionBar = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
@@ -50,7 +50,6 @@ class DiezSeg : AppCompatActivity() {
             val intent = Intent(this, ReglasDiezSegs::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun juegos() {

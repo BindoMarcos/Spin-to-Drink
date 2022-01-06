@@ -26,7 +26,7 @@
             android:layout_gravity="center"
             android:theme="@style/ToolbarColoredBackArrow"
             android:fontFamily="@font/bungee"
-            android:text="Reglas"
+            android:text="@string/reglas"
             android:textColor="@color/white"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="176dp"
@@ -51,7 +51,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            tools:ignore="ExtraText">
 
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -65,7 +66,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/bungee"
-                android:text="3- El jugador con mas votos tendra que tomar la cantidad de shots mencionadas"
+                android:text="@string/reglas_quien_es_mas_3"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +83,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/bungee"
-                android:text="2- Los jugadores tendran que decidir quien de los presentes encaja mejor con la pregunta"
+                android:text="@string/reglas_quien_es_mas_2"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -97,7 +98,7 @@
                 android:layout_marginTop="44dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/bungee"
-                android:text="1- El host realiza la pregunta que aparece en pantalla "
+                android:text="@string/reglas_quien_es_mas_1"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
