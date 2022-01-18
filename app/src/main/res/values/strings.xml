@@ -22,6 +22,9 @@
     <string name="quien_es_mas_n_probable">¿Quien es mas \n probable?</string>
 
     <string name="yo_nunca_nunca">Yo Nunca nunca…</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="warning">Por favor sea responsable y beba con moderacion \nTrustlyApps no se resposabiliza en caso de accidentes, incidente o cualquier situacion relacionada con la ingesta exesiva de alcohol</string>
+    <string name="acepto">Acepto</string>
 
 
 </resources>
