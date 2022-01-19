@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">Drink Game</string>
+    <string name="selected_language">Español</string>
+
     <string name="titulo_yo_nunca">Yo Nunca</string>
     <string name="titulo_Quien_es_mas">Quien es mas?</string>
     <string name="titulo_10_seg">10 Segundos</string>
     <string name="bienvenidos">Bienvenidos</string>
     <string name="_10_segundos">10 segundos</string>
     <string name="reglas">Reglas</string>
-    <string name="textview">TextView</string>
     <string name="shots">shots:</string>
     <string name="text">Text</string>
     <string name="title">Title</string>
