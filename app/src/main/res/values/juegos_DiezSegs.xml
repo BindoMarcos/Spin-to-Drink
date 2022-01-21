@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    Faltan 60 juegos
     <string-array name="DiezSegsEasy">
         <item>Nombra 3 adjetivos que se usan para describir un pene</item>
         <item>Nombra 3 adjetivos utilizados para describir una vagina</item>
@@ -10,31 +11,7 @@
         <item>Nombra 3 marcas de condones</item>
         <item>Nombra 3 razones para acostarte con alguien en la primera cita</item>
         <item>Nombra 3 posiciones sexuales</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+
     </string-array>
 
     <string-array name="DiezSegsMedium">
@@ -55,23 +32,7 @@
         <item>Nombra 3 excusas para evitar el sexo</item>
         <item>Nombra 3 fetiches que te parezcan raros</item>
         <item>Nombra 3 lugares para un rapidito</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+
     </string-array>
 
     <string-array name="DiezSegsHard">
@@ -91,24 +52,7 @@
         <item>Nombra 3 lugares del mundo que haya nieve</item>
         <item>Nombra 3 superhéroes</item>
         <item>Nombra 3 partes del cuerpo donde te gusta que te laman</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+
     </string-array>
 
 </resources>

@@ -4,22 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondaryActivity"
+    tools:context=".GameActivity"
     android:background="@color/black">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/GameToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.bluehomestudio.luckywheel.LuckyWheel
         android:id="@+id/luckywheel"
         android:layout_width="320dp"
         android:layout_height="320dp"
         android:layout_centerInParent="true"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
+
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-
-        />
+        app:layout_constraintTop_toBottomOf="@+id/GameToolbar" />
 
     <ImageButton
         android:id="@+id/bSpin"
