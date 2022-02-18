@@ -13,4 +13,4 @@ Use the following [link](https://play.google.com/store/apps/details?id=com.trust
 
 
 ### :book: Libraries used
-- ![LuckyWheel] (https://github.com/mmoamenn/LuckyWheel_Android) by ![mmoamenn](https://github.com/mmoamenn)
+- [LuckyWheel](https://github.com/mmoamenn/LuckyWheel_Android) by [mmoamenn](https://github.com/mmoamenn)
